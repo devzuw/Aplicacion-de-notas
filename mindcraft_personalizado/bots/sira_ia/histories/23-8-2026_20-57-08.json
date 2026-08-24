@@ -1,0 +1,130 @@
+[
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting zombie!"
+    },
+    {
+        "role": "user",
+        "content": "SkinsRestorer: Your skin has been cleared. "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "Sira: ir al aldeano"
+    },
+    {
+        "role": "assistant",
+        "content": "<think>\nThe user, Sira, wants the bot to go to a villager.\nI need to check the `NEARBY_ENTITIES` section to see if there is a villager.\nHowever, `NEARBY_ENTITIES` lists:\n- Human player: zuw_v\n- entities: 1 zombie(s)\n- entities: 1 pig(s)\n\nThere is no villager listed in `NEARBY_ENTITIES`.\nI should look at the available commands. `!searchForEntity"
+    },
+    {
+        "role": "system",
+        "content": "Command !searchForEntity was given 0 args, but requires 2 args."
+    },
+    {
+        "role": "assistant",
+        "content": "!searchForEntity(\"villager\", 64)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound villager 16.1172407357379 blocks away.\nFound non-destructive path.\nYou have reached at -902.5000195513201, 68, 578.4999607532144.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!searchForEntity(\"villager\", 64)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound villager 3.943642244705656 blocks away.\nFound non-destructive path.\nYou have reached at -902.5000195513201, 68, 578.4999607532144.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!moveAway(5)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nMoved away from (-903, 68, 574) to (-909, 67, 574).\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!searchForEntity(\"villager\", 64)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound villager 6.507861104446414 blocks away.\nFound non-destructive path.\nYou have reached at -903.4581158279196, 68.875, 578.706184922397.\n"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting zombie!"
+    },
+    {
+        "role": "user",
+        "content": "Sira: ir hacia zuw_v"
+    },
+    {
+        "role": "assistant",
+        "content": "!goToPlayer(\"zuw_v\", 2)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached zuw_v.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "<think>\nThe user wants me to act as a command translator for a Minecraft bot named Sira.\nI need to translate Sira's intents into game commands.\nThe available commands are listed in the prompt.\nThe user input is empty (`\"\"`).\nWait, looking at the conversation history:\nThe last user input was empty.\nThe previous user input was \"Sira: ir hacia zuw_v\" and I responded with `!goToPlayer(\"zuw_v\", 2)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached zuw_v.\n"
+    },
+    {
+        "role": "user",
+        "content": "Sira: ir hacia zuw_v"
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "Sira: ir hacia el aldeano"
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "Sira: ir hacia zuw_v"
+    },
+    {
+        "role": "assistant",
+        "content": "!goToPlayer(\"zuw_v\", 2)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached zuw_v.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "\\t"
+    },
+    {
+        "role": "user",
+        "content": "Sira: usar el encendedor en las escaleras de acacia"
+    },
+    {
+        "role": "assistant",
+        "content": "!useOn(\"flint_and_steel\", \"acacia_stairs\")"
+    }
+]

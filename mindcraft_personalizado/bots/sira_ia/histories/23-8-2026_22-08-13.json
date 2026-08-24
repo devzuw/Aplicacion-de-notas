@@ -1,0 +1,10 @@
+[
+    {
+        "role": "user",
+        "content": "SkinsRestorer: Your skin has been cleared. "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    }
+]

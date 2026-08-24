@@ -1,0 +1,18 @@
+[
+    {
+        "role": "user",
+        "content": "SkinsRestorer: Your skin has been cleared. "
+    },
+    {
+        "role": "user",
+        "content": "ADMIN: sira dijo: sala"
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    }
+]

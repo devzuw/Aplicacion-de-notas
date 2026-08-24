@@ -1,0 +1,122 @@
+[
+    {
+        "role": "user",
+        "content": "Sira: ir a la aldea"
+    },
+    {
+        "role": "assistant",
+        "content": "!searchForEntity(\"villager\", 64)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound villager 8.255802940691881 blocks away.\nFound non-destructive path.\nYou have reached at -919.6224859707771, 68.5625, 544.6473436636398.\n"
+    },
+    {
+        "role": "user",
+        "content": "Sira: quemar el lugar"
+    },
+    {
+        "role": "user",
+        "content": "Sira: quemar el suelo bajo mis pies"
+    },
+    {
+        "role": "assistant",
+        "content": "!useOn(\"flint_and_steel\", \"grass_block\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached at -921, 67, 547.\nEquipped flint_and_steel.\nUsed flint_and_steel on grass_block.\n"
+    },
+    {
+        "role": "user",
+        "content": "Sira: quemar el bloque de pasto"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPlaced acacia_log at (-921, 68, 547).\n"
+    },
+    {
+        "role": "user",
+        "content": "Sira: quemar el bloque de madera"
+    },
+    {
+        "role": "user",
+        "content": "Sira: quemar el bloque de madera"
+    },
+    {
+        "role": "assistant",
+        "content": "!useOn(\"flint_and_steel\", \"acacia_wood\")"
+    },
+    {
+        "role": "user",
+        "content": "Sira: colocar madera en el suelo"
+    },
+    {
+        "role": "assistant",
+        "content": "!placeHere(\"acacia_log\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached at -920, 67, 544.\nBlock orange_bed is in the way, moving closer...\nFound destructive path.\nYou have reached at -920.5999903573186, 67, 544.5069981492819.\nEquipped flint_and_steel.\nUsed flint_and_steel on acacia_wood.\n"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!"
+    },
+    {
+        "role": "user",
+        "content": "Sira: ir a los aldeanos"
+    },
+    {
+        "role": "user",
+        "content": "Sira: ir a la aldea"
+    },
+    {
+        "role": "user",
+        "content": "Sira: ir a la aldea"
+    },
+    {
+        "role": "user",
+        "content": "Sira: ir a la aldea"
+    },
+    {
+        "role": "user",
+        "content": "Sira: ir a la aldea"
+    },
+    {
+        "role": "user",
+        "content": "Sira: ir a la aldea"
+    },
+    {
+        "role": "user",
+        "content": "Sira: ir a los aldeanos"
+    },
+    {
+        "role": "assistant",
+        "content": "!searchForEntity(\"villager\", 64)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound villager 8.829682844258022 blocks away.\nFound non-destructive path.\nYou have reached at -919.8407841029672, 68, 553.3135481725234.\n"
+    },
+    {
+        "role": "user",
+        "content": "Sira: seguir caminando hacia los aldeanos"
+    },
+    {
+        "role": "user",
+        "content": "Sira: ir al aldeano"
+    },
+    {
+        "role": "assistant",
+        "content": "!searchForEntity(\"villager\", 64)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound villager 3.510827826729856 blocks away.\nFound non-destructive path.\nYou have reached at -919.7674430883168, 68, 553.187050884857.\n"
+    },
+    {
+        "role": "user",
+        "content": "Sira: ir hacia el aldeano de la izquierda"
+    }
+]

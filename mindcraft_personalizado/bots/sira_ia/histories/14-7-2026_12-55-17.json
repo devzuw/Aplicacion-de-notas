@@ -1,0 +1,174 @@
+[
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "Sira: caminar hacia adelante"
+    },
+    {
+        "role": "assistant",
+        "content": "!moveAway(5)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nMoved away from (-127, 64, 21) to (-124, 62, 16).\n"
+    },
+    {
+        "role": "user",
+        "content": "Sira: buscar un árbol cercano"
+    },
+    {
+        "role": "assistant",
+        "content": "!searchForBlock(\"oak_log\", 64)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound oak_log at (-133, 64, 29). Navigating...\nFound non-destructive path.\nYou have reached at -133, 64, 29.\n"
+    },
+    {
+        "role": "user",
+        "content": "Sira: talar madera"
+    },
+    {
+        "role": "assistant",
+        "content": "!collectBlocks(\"oak_log\", 10)"
+    },
+    {
+        "role": "user",
+        "content": "Sira: fabricar tablones de roble"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"oak_planks\", 1)"
+    },
+    {
+        "role": "user",
+        "content": "Sira: fabricar una mesa de crafteo"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted oak_planks, you now have 4 oak_planks.\n"
+    },
+    {
+        "role": "user",
+        "content": "Sira: fabricar palos"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"stick\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted stick, you now have 4 stick.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "\\t"
+    },
+    {
+        "role": "user",
+        "content": "Sira: fabricar tablones de roble"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"oak_planks\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted oak_planks, you now have 6 oak_planks.\n"
+    },
+    {
+        "role": "user",
+        "content": "Sira: fabricar una mesa de crafteo"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"crafting_table\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted crafting_table, you now have 1 crafting_table.\n"
+    },
+    {
+        "role": "user",
+        "content": "Sira: fabricar un pico de madera"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nYou do not have the resources to craft a wooden_pickaxe. It requires: oak_planks: 3, stick: 2.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "\\t"
+    },
+    {
+        "role": "user",
+        "content": "Sira: fabricar tablones de roble"
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "Sira: fabricar tablones de roble"
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "Sira: fabricar tablones de roble"
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "Sira: fabricar tablones de roble"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"oak_planks\", 2)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted oak_planks, you now have 10 oak_planks.\n"
+    },
+    {
+        "role": "user",
+        "content": "Sira: colocar la mesa de crafteo al frente"
+    },
+    {
+        "role": "assistant",
+        "content": "<think>\nThe user wants the bot to place the crafting table in front of it.\nThe input from Sira is \"colocar la mesa de crafteo al frente\" (place the crafting table in front).\nLooking at the available commands, `!placeHere(\"type\")"
+    },
+    {
+        "role": "system",
+        "content": "Invalid block or item type: type."
+    },
+    {
+        "role": "assistant",
+        "content": "!placeHere(\"crafting_table\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nvine in the way at (-137, 64, 26).\nBroke vine at x:-136.5, y:64.0, z:26.5.\nPlaced crafting_table at (-137, 64, 26).\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!placeHere(\"dirt\")"
+    }
+]
